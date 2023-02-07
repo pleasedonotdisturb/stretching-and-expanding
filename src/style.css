@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Anybody:wdth,wght@75,300;50..150,750&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Anybody", cursive;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #111;
+}
+
+h1 {
+	font-weight: 750;
+	font-size: 6em;
+	line-height: 1;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fafafa;
+}
+
+h1.stretch {
+	font-variation-settings: "wdth" 50;
+	animation: stretch 2s ease infinite;
+}
+
+h1.stretch:last-child {
+	animation-delay: -1s;
+}
+
+@keyframes stretch {
+	from {
+		font-variation-settings: "wdth" 50;
+		color: #adff2f;
+	}
+
+	15% {
+		color: #ffff00;
+	}
+
+	50% {
+		font-variation-settings: "wdth" 150;
+		color: #f72626;
+	}
+
+	85% {
+		color: #ffff00;
+	}
+
+	to {
+		font-variation-settings: "wdth" 50;
+		color: #adff2f;
+	}
+}
+
+h1.static {
+	font-size: 3rem;
+	font-weight: 300;
+}
