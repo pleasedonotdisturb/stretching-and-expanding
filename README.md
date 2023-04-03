@@ -1,5 +1,5 @@
 # Stretching & Expanding
-A simple variable font experiment ft. Anybody from Etcetera Type!
+A simple variable font experiment ft. *Anybody* from *Etcetera Type*!
 
 ![Animated stretching text that reads "stretching & expanding"](https://github.com/pleasedonotdisturb/stretching-and-expanding/blob/main/stretching-expanding-proj-prev.gif)
 
